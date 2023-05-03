@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generate Students</title>
+</head>
+<body>
+
+
+{{ error }}
+
+{% for s in get_student %}
+{{ s.first_name }}
+{{ s.last_name }}
+{{ s.age }}
+{{ s.id }} <br>
+
+{% endfor %}
+
+</body>
+</html>
+
